@@ -1,0 +1,24 @@
+.text-areas{
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .text-area{
+        min-width: 50%;
+        width: 50%;
+    }
+    .btn{
+        margin-top: 2rem;
+        border: 1px solid lightgray;
+        color: #000;
+        &:hover{
+            background: transparent;
+            border: 1px solid #000;
+        }
+    }
+}
